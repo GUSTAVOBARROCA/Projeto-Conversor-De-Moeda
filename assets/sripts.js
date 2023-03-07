@@ -37,7 +37,7 @@ const convertValues = () => {
             // style:'currency', 
             currency:'BTC' ,           
     
-        }).format(inputReais / bitCoin.toFixed)
+        }).format(inputReais / bitCoin.toFixed(1))
     }
     // currencyValueText.innerHTML = inputReais / dolar
 
